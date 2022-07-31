@@ -13,7 +13,7 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "${fileDirname}/${fileBasenameNoExtension}",
-      "args": [],
+      "args": ["-g"],
       // walk on the function
       "stopAtEntry": true,
       "cwd": "${fileDirname}",

@@ -2,9 +2,11 @@
 
 using namespace std;
 
+int x = 0;
 int fun(int n) {
   if (n > 0) {
-    return fun(n - 1) + n;
+    x++;
+    return fun(n - 1) + x;
   }
   return 0;
 }
