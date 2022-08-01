@@ -2,7 +2,7 @@
 using namespace std;
 
 void demo(){
- static int count = 0;
+  static int count = 0;
   cout << count << " ";
   count++;
 }
