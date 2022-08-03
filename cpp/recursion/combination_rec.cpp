@@ -19,7 +19,7 @@ int combination(int n, int r) {
 
 // using pascal triangle, see the video if you don't remmber
 int combinationPascal(int n, int r) {
-  if (n == 0 || n == r) {
+  if (n == r || r == 0) {
     return 1;
   } else {
     return combinationPascal(n - 1, r - 1) + combinationPascal(n - 1, r);
@@ -27,7 +27,7 @@ int combinationPascal(int n, int r) {
 }
 
 int main() {
-  // cout << combination(5, 3) << endl;
-  cout << combinationPascal(5, 3) << endl;
+  // cout << combination(5, 1) << endl;
+  cout << combinationPascal(5, 1) << endl;
   return 0;
 }
