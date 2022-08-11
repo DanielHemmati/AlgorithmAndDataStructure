@@ -15,7 +15,7 @@
       "program": "${fileDirname}/${fileBasenameNoExtension}",
       "args": ["-g"],
       // walk on the function
-      "stopAtEntry": true,
+      "stopAtEntry": false,
       "cwd": "${fileDirname}",
       "environment": [],
       "externalConsole": false,
@@ -35,7 +35,7 @@
       ],
       "preLaunchTask": "C/C++: g++-9 build active file",
       "miDebuggerPath": "/usr/bin/gdb"
-    }
+    },
   ],
   "version": "2.0.0"
 }
