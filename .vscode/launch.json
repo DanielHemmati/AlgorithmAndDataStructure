@@ -1,6 +1,14 @@
 {
   "configurations": [
     {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
       "name": "Launch Program",
       "program": "${file}",
       "request": "launch",
@@ -35,7 +43,7 @@
       ],
       "preLaunchTask": "C/C++: g++-9 build active file",
       "miDebuggerPath": "/usr/bin/gdb"
-    },
+    }
   ],
   "version": "2.0.0"
 }
