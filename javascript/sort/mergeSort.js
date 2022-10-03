@@ -31,11 +31,10 @@ function merge(arr1, arr2) {
     result.push(arr2[j]);
     j++;
   }
-
   return result;
 }
 
-// console.log(merge([1, 10, 50], [2, 14, 99, 100]));
+console.log(merge([1, 10, 50], [2, 14, 99, 100]));
 
 /**
  *
@@ -49,5 +48,5 @@ function mergeSort(arr) {
   return merge(left, right);
 }
 
-let a = [10, 24, 73, 76];
-console.log(mergeSort(a));
+// let a = [10, 24, 73, 76];
+// console.log(mergeSort(a));
