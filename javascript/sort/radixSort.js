@@ -19,13 +19,13 @@ function radixSort(arr) {
   let maxDigitCount = mostDigits(arr);
   for (let i = 0; i < maxDigitCount; i++) {
     var digitBuckets = Array.from({ length: 10 }, () => []);
-    for (let j = 0; j < arr.length; j++){
+    for (let j = 0; j < arr.length; j++) {
       let digit = getDigit(arr[j], i);
       digitBuckets[digit].push(arr[j]);
     }
     // console.log(digitBuckets)
     arr = [].concat(...digitBuckets);
-    // or 
+    // or
     // arr = digitBuckets.flat();
   }
   return arr;
