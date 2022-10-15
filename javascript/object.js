@@ -11,3 +11,4 @@ let property = person.hasOwnProperty('fname');
 // console.log(property);
 let test = "daniel";
 console.log(test[0].toUpperCase() + test.slice(1))
+console.log("hello there");
